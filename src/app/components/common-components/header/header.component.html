@@ -1,0 +1,114 @@
+
+<div class="col-xs-12 header bgc-header no-padd-lr"  >
+
+
+      <div class=" fl logobar-icon bcg-body" style="width: 210px ; padding-left:30px;padding-right: 20px;">
+            <img height="100%" width="100%" src="../../../assets/JPM-Logo.svg" alt="logo"> 
+       </div> 
+
+       <div class="main-text-color fs12 fl hide" style="width:400px">Comparision</div>
+     
+
+       <div class="no-padd-lr fr" >
+     
+           <div (click)="toogleDropdown()" class="logobar-icon fr" style="width: 120px;">
+               <img *ngIf="toggle==0" style="width:24px" src="../../../assets/plus.svg" alt="filter">
+               <img *ngIf="toggle==1" style="width:24px"  src="../../../assets/cross.svg" alt="filter">
+             </div>
+     
+           <div class="fr vertical-center" style="width:140px; height:60px ;">
+     
+             <div (click)="reload()">
+                 <img class="fl" src="../../../assets/pinterest.svg" alt="upload"> 
+                 <p class="fs12 main-text-color bold fl" style="margin-left:10px;padding-top:2px;">Pinterest</p>
+             </div>   
+           </div>
+           
+     
+       </div>
+       <div class="dropdown" *ngIf="false" >
+          
+         <div class="col-xs-12" style="padding-top:15px">
+     
+             <div  *ngFor="let item of data; let index = index" [className]="item.selected?'selected main-text-color fs15 bold dropdown-box fl text-center':'main-text-color fs15 bold dropdown-box fl text-center'"  (click)="itemClicked(index)">
+               
+                 <div class="column-logo round bgc-icon vertical-center" style="height: 50px;width:50px; margin: 0 auto; "  > 
+                     <div >
+                             <img src="{{'../../assets/'+item.logo}}" alt="column-logo">
+                     </div>
+                   </div>
+     
+    
+                 {{item.name}}
+     
+     
+               </div>
+         
+         </div>
+           
+       </div>
+     
+     
+     
+     
+     
+       <div class="dropdown-2"  >
+          
+           <div class="col-xs-12" style="padding-top:15px ;padding-left:50px;padding-right:50px;">
+     
+              <p style="font-size: 20px ;margin-bottom: 29px" class="main-text-color bold">Add Client</p>
+     
+               <input type="text" class="input bold main-text-color" [(ngModel)]="inputData" (ngModelChange)="onChangeModel()">
+     
+     
+               <div class="dropdown-company col-xs-12" *ngFor="let item of displayData ; let index = index" (click)="itemClicked(item)">
+     
+                   
+                 <div class="col-xs-2">
+                    <div class="column-logo round bgc-icon vertical-center" style="height: 50px;width:50px; margin: 0 auto; "  >
+                     <img src="{{'../../../assets/'+item.logo}}" alt="column-logo">
+                    </div>
+                 </div>
+     
+                  <div class="col-xs-8 " style="padding-top: 10px; padding-left: 25px;"> 
+                 
+                    
+                        <span class="fs10 main-text-color bold">{{item.name}}</span> <span class="fs10 sub-text-color bold">{{item.data}}</span> 
+                     
+                   
+                  </div>
+     
+                  <!-- <div class="col-xs-2">
+                    <div class="dot"></div>
+                  </div> -->
+     
+     
+               </div>
+        
+           
+           </div>
+             
+         </div>
+   
+         
+
+
+    </div>
+
+
+      
+
+
+ 
+
+  
+ 
+
+
+
+
+
+
+
+
+

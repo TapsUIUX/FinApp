@@ -1,0 +1,9 @@
+.chart-mask{
+    height: 87px;
+    width:87px;
+    border-radius:50%;
+    position:absolute;
+    top: 35px;
+    left: 54px;
+    z-index: 10;
+}

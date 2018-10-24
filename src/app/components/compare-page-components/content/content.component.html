@@ -1,0 +1,14 @@
+<div class="col-xs-12  content no-padd-r" style="margin-top:50px">
+
+  <div   class="line-mask">
+        <div *ngFor="let line of lines" class="mask-under-line" style="height:25px"></div>
+  </div>
+
+  <div class="col-xs-2 no-padd-lr">
+    <app-content-left (titleClick_e)="titleClicked($event)"></app-content-left>
+  </div>
+  <div class="col-xs-10 no-padd-lr">
+    <app-content-right *ngIf="toogleView" [companyData]="companyData" (index_e)="setSummary($event)"></app-content-right>
+    <app-content-right *ngIf="!toogleView" [companyData]="companyData" (index_e)="setSummary($event)"></app-content-right>
+  </div>
+</div>

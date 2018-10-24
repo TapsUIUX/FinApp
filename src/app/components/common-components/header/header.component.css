@@ -1,0 +1,56 @@
+.logobar-icon {
+  height: 60px;
+  background-color: #171722;
+  padding-top: 15px;
+  text-align: center;
+}
+
+/* .dropdown {
+  height: 0px;
+  z-index: 20;
+  width: 100%;
+  position: absolute;
+  background-color: rgb(38, 38, 53);
+  top: 60px;
+  transition: all 1s cubic-bezier(.75, -0.48, .26, 1.52);
+  overflow: hidden;
+} */
+
+.dropdown-2 {
+  height: 0px;
+  z-index: 20;
+  width: 446px;
+  position: absolute;
+  background-color: rgb(38, 38, 53);
+  top: 60px;
+  transition: all 1s cubic-bezier(.75, -0.48, .26, 1.52);
+  overflow: hidden;
+  right: 0;
+}
+
+.dropdown-box {
+  height: 100px;
+  width: 100px;
+  background-color: #171722;
+  margin-left: 15px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.selected {
+  border: 3px solid #0cfccc;
+}
+
+.input {
+  height: 40px;
+  background-color: #262635;
+  border: 0px;
+  border-bottom: 2px white solid;
+  width: 100%;
+  font-size: 14px;
+}
+
+.dropdown-company {
+  padding: 17px 0;
+  transition: all 0.5s linear;
+}

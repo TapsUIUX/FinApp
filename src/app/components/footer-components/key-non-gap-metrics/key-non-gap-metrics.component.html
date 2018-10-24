@@ -1,0 +1,236 @@
+<div class="keyNonGaap">
+
+<div class="col-xs-6 no-padd-l">
+
+     <div>
+        <p class="fs11 bold main-text-color">KEY NON-GAAP METRICS</p>
+      </div>
+     
+      <div class="chart" style="height:115px ;width :115px;   ">
+        <div class="chart-mask  text-center vertical-center" style="background-color:rgba(47, 47, 66, 0.23)">
+            <div>
+                    <p class="fs13 bold main-text-color" >{{keyNonGaap.revenue.value}} </p> 
+                    <p class="fs10 bold sub-text-color">
+                        REVENUE
+                    </p>
+            </div>
+          
+        </div>
+
+        <app-chart style="position: relative;left: 40px;" [dataInput]='chartData' [optionInput]='chartOption'></app-chart>
+
+      </div>
+
+      <div style="padding-top: 15px;">
+
+    <!-- Section 1 -->
+          <div class="col-xs-6 no-padd-l" style="height:40px">
+              <div class="col-xs-2 no-padd-l">
+                    <div class="dot fl" ></div>
+              </div>
+              <div class="col-xs-10 no-padd-l" style="position: relative;top: -4px;"> 
+            
+                    <div class="  fs11 bold main-text-color">{{keyNonGaap.subscription.value}}</div>
+                    <div class="fs10 sub-text-color bold">SUBSCRIPTION</div>
+
+              </div>      
+              
+          </div>
+
+
+
+          <!-- Section 2  -->
+
+
+          <div class="col-xs-6 " style="height:40px">
+                <div class="col-xs-2 no-padd-l">
+                      <div class="dot fl" ></div>
+                </div>
+                <div class="col-xs-9 no-padd-l" style="position: relative;top: -4px;"> 
+                      <div class=" fs11 bold main-text-color">{{keyNonGaap.costOfRevenue.value}}</div> 
+                      <div class="fs10 sub-text-color bold">COST OF REVENUE</div>
+  
+                </div>      
+                
+            </div>
+
+
+            <!-- Section 3 -->
+
+
+            <div class="col-xs-6 no-padd-l" style="height:40px">
+                    <div class="col-xs-2 no-padd-l">
+                          <div class="dot fl" ></div>
+                    </div>
+                    <div class="col-xs-10 no-padd-l" style="position: relative;top: -4px;"> 
+                          <div class="  fs11 bold main-text-color">{{keyNonGaap.Advertising.value}}</div>
+                          
+                          <div class="fs10 sub-text-color bold">ADVERTISING</div>
+      
+                    </div>      
+                    
+                </div>
+
+
+                <!-- Section 4  -->
+
+
+
+                <!-- <div class="col-xs-6  " style="height:40px">
+                        <div class="col-xs-2 no-padd-l">
+                              <div class="dot fl" ></div>
+                        </div>
+                        <div class="col-xs-9 no-padd-l" style="position: relative;top: -4px;"> 
+                              <div class=" fs11 bold main-text-color">{{keyNonGaap.other.value}}</div>
+                              <div class="fs10 sub-text-color bold">OTHER</div>
+          
+                        </div>      
+                        
+                    </div> -->
+
+ 
+      </div>
+
+</div>
+
+
+<div class="col-xs-6 bgc-body" style="height:223px">
+
+
+      <!-- Section 1 -->
+
+
+      <div class="col-xs-12 no-padd-lr" style="padding-top:27px;">
+            
+
+            
+      <div class="col-xs-6 no-padd-l " style=" ">
+                  <div class="col-xs-2 no-padd-tb no-padd-lr">
+                        <div> <img src="../../../../assets/gross-margin-round.svg" alt="fcf"></div>
+                  </div>
+                  <div class="col-xs-8 no-padd-r" style="padding-left: 10px;"> 
+                
+                        <div class="  fs11 bold main-text-color">{{keyNonGaap.grossMargin.value}}</div>
+                        
+                        <div class="fs10 sub-text-color bold">GROSS MARGIN</div>
+      
+                  </div>      
+                  
+              </div>
+      
+      
+                <!-- Section 2 -->
+      
+            <div class="col-xs-6 no-padd-lr " style="">
+                  <div class="col-xs-2 no-padd-tb no-padd-lr">
+                        <div> <img src="../../../../assets/FCF.svg" alt="fcf"></div>
+                  </div>
+                  <div class="col-xs-8 no-padd-r" style="padding-left: 10px;" > 
+                
+                        <div class="  fs11 bold main-text-color">{{keyNonGaap.freeCashFlow.value}}</div>
+                        
+                        <div class="fs10 sub-text-color bold">FREE CASH FLOW</div>
+      
+                  </div>      
+                  
+              </div>
+
+
+      </div>
+
+
+
+      <div class="col-xs-12 no-padd-lr" style="padding-top:27px;">
+
+                       <!-- Section 3 -->
+
+      <div class="col-xs-6 no-padd-lr"  >
+                  <div class="col-xs-2 no-padd-tb no-padd-lr">
+                        <div> <img src="../../../../assets/operating-income.svg" alt="fcf"></div>
+                  </div>
+                  <div class="col-xs-8 no-padd-r" style="padding-left: 10px;" > 
+                
+                        <div class="  fs11 bold main-text-color">{{keyNonGaap.marketingAndSales.value}}</div>
+                        
+                        <div class="fs10 sub-text-color bold">MARKETING & SALES</div>
+      
+                  </div>      
+                  
+              </div>
+      
+      
+              
+                     <!-- Section 4 -->
+      
+            <div class="col-xs-6 no-padd-lr " style=" ">
+                  <div class="col-xs-2 no-padd-tb no-padd-lr">
+                        <div> <img src="../../../../assets/netincome.svg" alt="fcf"></div>
+                  </div>
+                  <div class="col-xs-8 no-padd-r" style="padding-left: 10px;" > 
+                
+                        <div class="  fs11 bold main-text-color">{{keyNonGaap.netIncome.value}}</div>
+                        
+                        <div class="fs10 sub-text-color bold">NET INCOME</div>
+      
+                  </div>      
+                  
+              </div>
+      
+
+      </div>
+
+
+
+
+      <div class="col-xs-12 no-padd-lr" style="padding-top:27px;"> 
+
+
+
+             <!-- SECTION 5 -->
+
+        <div class="col-xs-6 no-padd-l " style=" ">
+                  <div class="col-xs-2 no-padd-tb no-padd-lr">
+                        <div> <img src="../../../../assets/payments.svg" alt="fcf"></div>
+                  </div>
+                  <div class="col-xs-8 no-padd-r" style="padding-left: 10px;" > 
+                
+                        <div class="  fs11 bold main-text-color">{{keyNonGaap.payments.value}}</div>
+                        
+                        <div class="fs10 sub-text-color bold">PAYMENTS</div>
+      
+                  </div>      
+                  
+              </div>
+      
+      
+      
+              <!-- SECTION 6 -->
+      
+      
+              <div class="col-xs-6 no-padd-lr " style=" ">
+                  <div class="col-xs-2 no-padd-tb no-padd-lr">
+                        <div> <img src="../../../../assets/EBIDTA.svg" alt="fcf"></div>
+                  </div>
+                  <div class="col-xs-8 no-padd-r" style="padding-left: 10px;" > 
+                
+                        <div class="  fs11 bold main-text-color">{{keyNonGaap.EBITDA.value}}</div>
+                        
+                        <div class="fs10 sub-text-color bold">EBITDA</div>
+      
+                  </div>      
+                  
+              </div>
+
+
+
+            
+      </div>
+    
+       
+
+
+
+
+</div>
+ 
+</div>

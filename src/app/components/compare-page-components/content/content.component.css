@@ -1,0 +1,11 @@
+.line-mask {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin-top: 80px;
+  padding-left: 55px;
+}
+
+.mask-under-line {
+  border-bottom: 1px #33333c solid;
+}

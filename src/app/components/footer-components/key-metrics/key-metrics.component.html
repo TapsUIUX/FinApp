@@ -1,0 +1,122 @@
+ 
+<div class="keyMatrics">
+
+   
+    <div class="col-xs-12 no-padd-lr">
+
+                 <div>
+                    <p class="fs11 bold main-text-color">KEY METRICS</p>
+                  </div>
+
+
+                  <div class="col-xs-6">
+
+                        <div class="box bgc-footer" style=" margin-top:20px;padding-top: 10px !important;border-radius: 5px;padding-bottom: 10px !important">
+
+                                <p class="fs13 main-text-color bold">{{keyMatrics.linkClicks.value}}</p>
+                                <p class="fs10 sub-text-color bold">LINK CLICKS</p>
+                    
+                             
+                                <p  style="margin-top:15px;" class="fs13 main-text-color bold">{{keyMatrics.customerAquisitionCost.value}}</p>
+                                <p class="fs10 sub-text-color bold">CUSTOMER AQUISITION COST</p>
+                    
+                            </div>
+                            
+                    
+                            <!-- bar 1  -->
+                            <div class=" box col-xs-12 no-padd-lr" style="margin-top:15px;">
+                                <p class="fs10 sub-text-color bold">% OF SALES THROUGH INDIRECT CHANNELS</p>
+                                <div class="col-xs-9 no-padd-lr " style="padding-top:5px">
+                                        <app-bar   [percentile]="keyMatrics.indirectSales.value" [index]='0' [color]="'#05eee8'"></app-bar>
+                                </div>
+                                <div class="col-xs-3 fs10 bold main-text-color ">
+                                    {{keyMatrics.indirectSales.value}}
+                                </div>
+                        
+                            </div>
+                    
+
+                  </div>
+                   
+    
+
+        <!-- bar 2  -->
+
+        <!-- <div class=" box col-xs-12 no-padd-lr no-padd-t">
+                <p class="fs10 sub-text-color bold">UPSELLS OF TVC</p>
+                <div class="col-xs-9 no-padd-lr " style="padding-top:5px">
+                        <app-bar  [percentile]="keyMatrics.upsellsOfTvc.value" [index]='1' [color]="'#06b1cf'"></app-bar>
+                </div>
+                <div class="col-xs-3 fs10 bold main-text-color ">
+                    {{keyMatrics.upsellsOfTvc.value}}
+                </div>
+        
+            </div> -->
+
+
+            <!-- bar 3  -->
+
+        <!-- <div class="box col-xs-12 no-padd-lr no-padd-t">
+                <p class="fs10 sub-text-color bold">GLOBAL 2000</p>
+                <div class="col-xs-9 no-padd-lr " style="padding-top:5px">
+                        <app-bar  [percentile]="keyMatrics.global2000.value" [index]='2' [color]="'#018bd5'" ></app-bar>
+                </div>
+                <div class="col-xs-3 fs10 bold main-text-color ">
+                    {{keyMatrics.global2000.value}}
+                </div>
+        
+            </div> -->
+
+   <div class="col-xs-3" style="height:253px" >
+ 
+
+            <div style="width:60px; height: 60px;     margin: auto;">
+                    <div class="text-mask fs13 main-text-color">{{keyMatrics.engagementRate.value}}</div>
+                    <app-chart [dataInput]="expChartData" [optionInput]='expChartOption'></app-chart>
+
+                    
+                   
+            </div>
+
+
+ 
+              <div style="width:60px; height: 60px; padding-top: 10px  ;   margin: auto;">
+                    <div class="text-mask fs13 main-text-color">{{keyMatrics.newSessions.value}}</div>
+                    <app-chart [dataInput]="renChartData" [optionInput]='renChartOption'></app-chart>
+                    
+            </div>
+
+
+            
+            <div style="width:60px; height: 60px; padding-top: 20px; margin: auto;">
+                    <div class="text-mask fs13 main-text-color">{{keyMatrics.bounceRate.value}}</div>
+                    <app-chart [dataInput]="cohChartData" [optionInput]='cohChartOption'></app-chart>
+                  
+            </div>
+
+        </div>   
+
+
+            <div class="col-xs-3 no-padd-lr" style="">
+
+                    <div class="fs10 bold sub-text-color fl chart-text vertical-center">ENGAGEMENT RATE</div>   
+                    <div class="fs10 bold sub-text-color fl chart-text vertical-center "   >NEW SESSIONS</div>      
+                    <div class="fs10 bold sub-text-color fl chart-text  vertical-center"   >BOUNCE RATE</div>
+                           
+
+            </div>
+
+ 
+     
+
+            
+
+
+  
+         
+                  
+                  
+         
+   
+
+</div>

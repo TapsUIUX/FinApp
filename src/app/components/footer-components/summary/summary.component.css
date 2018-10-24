@@ -1,0 +1,7 @@
+
+.pill{
+    background-color: rgba(0, 255, 204, 0.35);
+    padding: 3px 15px;
+    border-radius: 20px;
+    color: #01fcca;
+}

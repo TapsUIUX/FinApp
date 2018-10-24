@@ -1,0 +1,36 @@
+.main-text{
+    font-size:12px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 4px 0 4px 5px;
+    max-height:25px;  
+    min-height:25px;  
+  }
+  .sub-text{
+    font-size:12px;
+    font-weight: bold;
+    color: #8d8d92 ;
+    padding: 4px 0 4px 25px;
+    max-height:25px;  
+    min-height:25px;  
+  }
+  
+
+
+  .text-rotate{                   
+    transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+    bottom: 45%;
+	position: absolute;
+  }
+
+  .clicked{
+    border-radius: 30px;
+    background-color: rgba(0, 255, 204, 0.35)
+  }
+
+  /* .left-under-line{
+    border-bottom: 1px #33333c solid;
+  } */
+

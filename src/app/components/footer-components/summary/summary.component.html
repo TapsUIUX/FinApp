@@ -1,0 +1,54 @@
+<div class="summary" >
+  <div class="footer-top">
+    <p class="main-text-color fs15 bold">{{summary.name}}</p>
+    <p class="sub-text-color fs10 bold" >{{summary.date}}</p>
+  </div>
+
+  <div class="box no-padd-l">
+    <div class="pill fl fs12 bold" ><img src="../../../../assets/arrow.svg" alt="arrow"></div>
+    <div class="pill fs12 fl bold" style="margin-left:15px;">TECH</div>
+    <div style="clear:both"></div>
+  </div>
+
+  
+
+  <div class="box no-padd-tb bgc-footer col-xs-12" style="height: 50px;border-radius: 5px;">
+
+    <div class="box-icon fl" style="padding-top:18px;">
+      <div class="vertical-center">
+          <img src="../../../../assets/monthly-revenue.svg" alt="monthlyRevenue">
+      </div>  
+    </div>
+
+
+      <div class="fl" style="height:100%;padding: 13px 0 0 15px;"  >
+         <div class="fs17 bold main-text-color ">
+           
+             <div> {{summary.monthlyRevenue.value}} </div>
+
+         </div>
+      </div>
+    
+      <div style="height:100%; padding:18px 0 0 15px ;" class="fl" >
+          <div class="fs10 bold sub-text-color" > MONTHLY REVENUE </div>
+      </div>
+        
+ 
+  </div>
+
+
+    <div class="box bgc-footer fl no-padd-tb col-xs-5" style="height: 73px;border-radius: 5px; margin-top: 15px; padding-top: 5px !important;">
+      <img src="../../../../assets/user-base.svg" alt="userBase">
+       <p class="fs13 bold main-text-color">{{summary.userBase.value}}  </p> 
+      <p class="fs12 bold sub-text-color">USER BASE</p>
+    </div>
+
+    <div class="box bgc-footer fl no-padd-tb col-xs-6" style="height: 73px;border-radius: 5px; margin-top: 15px;margin-left: 22px;padding-top: 5px !important;">
+      <img src="../../../../assets/net-income.svg" alt="userBase">
+       <p class="fs13 bold main-text-color">{{summary.netIncome.value}}  </p> 
+      <p class="fs12 bold sub-text-color">NET INCOME</p>
+    </div>
+
+
+   
+</div>

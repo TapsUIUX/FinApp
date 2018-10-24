@@ -1,0 +1,71 @@
+<div class="column-wraper"  >
+
+    <div style="height:25px;"></div>
+
+    <div class="column-logo round bgc-icon vertical-center">
+        <div >
+                <img src="{{'../../../assets/'+data.logo}}" alt="column-logo">
+        </div>
+    </div>
+
+
+<div class="highlight"></div>
+
+    <div class="column-top bgc-header text-center bold bgc-header">
+
+       <div >
+            <span class="fs15 main-text-color">{{data.name}} </span>
+       </div>
+     
+            <span class="fs10 sub-text-color"> {{data.date}} </span>
+      
+       
+
+    </div>
+
+    <div class="column-body">
+    
+   
+        <div class="column-cell vertical-center under-line" *ngFor="let item of data.keyNonGaapMetrics | objToArray">   
+
+                <div *ngIf="item.s1==true && item.media!==true">
+                        <div class="dot"></div>
+                    </div>
+                <div *ngIf="item.s1==true && item.media==true">
+                            <div class="dot fl"></div>
+                            <div class="dot fl" style="margin-left:10px" ></div>
+                </div>
+
+                <div class="column-blueBar" [className]="(item.s1 && item.press)?'column-faded-blue':'column-faded-white'"></div>
+
+        </div>
+
+        <div class="main-text under-line" style="height:25px"></div>
+
+
+        <!-- no underline for the last element -->
+
+        <div class="" *ngFor="let item of data.KPIs | objToArray ; let last = last">  
+
+            <div [className]="last?'column-cell vertical-center border-bottom':'column-cell vertical-center under-line'">
+
+                    <div *ngIf="item.s1==true && item.media!==true">
+                            <div class="dot"></div>
+                        </div>
+                    <div *ngIf="item.s1==true && item.media==true">
+                                <div class="dot fl"></div>
+                                <div class="dot fl" style="margin-left:10px" ></div>
+                    </div>
+
+                    <div  [className]="getClassName(item.s1,item.press,last)"></div>
+
+
+            </div> 
+               
+            </div>
+
+    </div>
+
+</div>
+
+

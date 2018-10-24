@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="16px" viewBox="0 0 15 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 40</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Compare-Chart---Atlassian-Copy-2" transform="translate(-631.000000, -802.000000)">
+            <g id="KPI-INfo" transform="translate(612.000000, 784.000000)">
+                <g id="KPI-Info">
+                    <g id="Group-4" transform="translate(19.000000, 16.000000)">
+                        <g id="Group-31">
+                            <g id="Group-32">
+                                <g id="Group-23">
+                                    <g id="Group-15" transform="translate(0.000000, 2.000000)">
+                                        <g id="Group-40">
+                                            <rect id="Rectangle-8" fill="#05EEE8" fill-rule="nonzero" x="0" y="0.5" width="15" height="15" rx="2"></rect>
+                                            <g id="Group-11" transform="translate(1.000000, 2.000000)">
+                                                <g id="round-perm_identity-24px">
+                                                    <polygon id="Path" points="0 0 13 0 13 13 0 13"></polygon>
+                                                    <polygon id="Path-2" fill="#000000" fill-rule="nonzero" points="3.25 8.66666667 3.25 9.75 9.75 9.75 9.75 8.66666667 5.95833333 7.58333333"></polygon>
+                                                    <path d="M6.5,5.5 C7.69708333,5.5 8.66666667,4.53041667 8.66666667,3.33333333 C8.66666667,2.13625 7.69708333,1.16666667 6.5,1.16666667 C5.30291667,1.16666667 4.33333333,2.13625 4.33333333,3.33333333 C4.33333333,4.53041667 5.30291667,5.5 6.5,5.5 Z M6.5,3.25 C7.09583333,3.25 7.58333333,3.7375 7.58333333,4.33333333 C7.58333333,4.92916667 7.09583333,5.41666667 6.5,5.41666667 C5.90416667,5.41666667 5.41666667,4.92916667 5.41666667,4.33333333 C5.41666667,3.7375 5.90416667,3.25 6.5,3.25 Z M6.5,7.04166667 C5.05375,7.04166667 2.16666667,7.7675 2.16666667,9.20833333 L2.16666667,9.29166667 C2.16666667,9.84395142 2.61438192,10.2916667 3.16666667,10.2916667 L9.83333333,10.2916667 C10.3856181,10.2916667 10.8333333,9.84395142 10.8333333,9.29166667 L10.8333333,9.20833333 C10.8333333,7.7675 7.94625,7.04166667 6.5,7.04166667 Z M9.75,9.75 L3.25,9.75 L3.25,9.21375 C3.35833333,8.82375 5.0375,8.125 6.5,8.125 C7.9625,8.125 9.64166667,8.82375 9.75,9.20833333 L9.75,9.75 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                                                </g>
+                                                <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="6.5" cy="4.33333333" r="1.08333333"></circle>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

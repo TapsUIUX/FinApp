@@ -1,0 +1,100 @@
+
+  <div class="" style="height:81px;padding:0px 0 0 25px;">
+
+    <div>
+        <div class="fl" style=" background-color: rgba(0, 255, 204, 0.35);width:17px;height:14px ;position: relative;
+        bottom: 5px;"></div>
+
+         <div class="dot-text" style="position: relative;
+         left: 20px;
+         bottom: 9px ;  width: 150px"
+          >Metrics not disclosed in S-1 but reported press releases</div>
+
+</div>
+
+
+  
+    <div>
+                <div class="dot fl"></div>
+
+                <div style="margin-left:10px;" class="dot fl"></div>
+             
+                 <span class="dot-text" style="position: relative;bottom: 10px"
+                  >Found in S1 & in media</span>
+
+    </div>
+
+    <div>
+
+            <div class="dot fl"></div> <span class="dot-text" style="margin-left:30px;position: relative;bottom: 10px">Found in S1</span>
+
+    </div>
+    
+
+ </div>
+
+<div class="content-left" >
+    
+    <div class="col-xs-2 no-padd-r">
+
+        <div class="br5 bgc-header  text-center bold fs11" style="color:white;height: 275px; ">
+            <div class="text-rotate" style="width:270px;    left: -108px;">{{keyNonGaapMetricsTitle}}</div>
+        </div>
+    </div>
+
+
+    <div class="col-xs-10">
+
+            <div *ngFor="let item of keyNonGaap; let first = first">
+ 
+                    <!-- no padd at top in design. dropped-->
+                    <!-- <div [className]="first?'main-text   left-under-line':'main-text '" (click)="onTitleClick(item.name,$event.target)" >{{item.name}}</div> -->
+
+                    <div class='compare-keys main-text   left-under-line'  (click)="onTitleClick(item.name,$event.target)" >{{item.name}}</div>
+
+
+                
+                
+                        <div *ngIf="item.sub">
+                           <div *ngFor="let sub of item.sub" class=" compare-keys  sub-text left-under-line" (click)="onTitleClick(sub,$event.target)">{{sub}}</div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="main-text left-under-line" style="height:25px"></div>
+
+
+                
+    </div>
+
+
+    <div class="col-xs-2 no-padd-r">
+
+            <div class=" br5 bgc-header  text-center bold fs11" style="color:white;height: 177px; ">
+                    <div class="text-rotate" style="width:165px;left:-56px">{{KPITitle}}</div>
+                </div>
+
+
+    </div>
+
+    <div class="col-xs-10">
+            <div *ngFor="let item of kpis ; let last = last;">
+                    <div [className]=" last? 'main-text compare-keys ':'main-text left-under-line compare-keys '" (click)="onTitleClick(item.name,$event.target)">{{item.name}}</div>
+                    
+                    <div *ngIf="item.sub">
+                       <div *ngFor="let sub of item.sub" class="sub-text left-under-line compare-keys " (click)="onTitleClick(sub,$event.target)">{{sub}}</div>
+                    </div>
+                </div>
+    </div>
+   
+
+
+
+    
+
+     
+  
+
+
+</div>

@@ -1,0 +1,102 @@
+
+
+
+<div class="container-fluid no-padd-lr no-mar-lr no-padd-tb no-mar-tb bgc-body " style="overflow: hidden">
+
+<!-- 
+<div class="open-mask bgc-body"  (click)="openScreen()">
+
+      <div class="mask-top bgc-body " style="height:50vh"></div>
+
+      <div class="mask-bottom  bgc-body" style="height:50vh"></div>
+
+</div> -->
+
+
+
+<div *ngIf="toggleModal" class="modalContainer vertical-center" >
+
+      <div class="modalBackdrop" (click)="toggleModalView()">
+
+      </div>
+      <div class="modal bgc-body text-center">
+
+
+                  <p class="fl" style="color:white ; padding:20px"> {{clickedTitle}}  </p> <img style="padding:20px" class="fr" src="../assets/cross.svg" alt="cross" (click)="toggleModalView()" >
+
+                  <app-advertising *ngIf="clickedTitle==='advertising'"></app-advertising>
+
+                  <!-- KEEP ADDING MODALS HERE -->
+
+      </div>
+    
+</div>
+
+
+
+ <div class="ipad-fixed bgc-body " id="appContent" style="margin:0 auto; box-shadow: 0px 0px 2px 17px #88888845;">
+
+
+
+        <app-header [data]='companyNotInList' (header_e)="itemSelected($event)"></app-header>
+ 
+        <app-content (titleClick_e)="titleClicked($event)"   (summary_e)="onColumnSelect($event)" [companyData]="data"></app-content>
+    
+        <div style="clear:both"></div>
+
+        
+    
+        <div class="footer-container">
+
+       
+                 
+              <!-- <div class="footer-mask text-center bgc-body sub-text-color bold vertical-center fs10 "  > -->
+                 
+                  <div   *ngIf="!showFooter"class="br5 text-center" style="width:100%; padding:5px 10px 20px 10px; position: absolute;
+                  top: 5px; ">
+
+                        <div style="width:400px;  " class="mauto sub-text-color text-center">
+
+                                    <img  class="fl" style="width:30px;" src="../../../assets/pie-icon.svg" alt="pi">
+                                    <p class="fl fs11 bold" style="padding-top:11px; width:300px" >SELECT COMPANY ABOVE TO VIEW INFORMATION</p>
+                        </div>
+                       
+                    </div>
+
+
+                    <div *ngIf="showFooter" (click)="toogleFooter()" class="br5 text-center" style="width:100%;   position: absolute;
+                    top: 3px; z-index: 20; ">
+  
+                          <div style="width:400px;  " class="mauto sub-text-color text-center">
+  
+                                      <img *ngIf="showFooter" style="width:30px;" src="../../../assets/downarrow.png" alt="">
+   
+                          </div>
+                         
+                      </div>
+
+               <!-- </div> -->
+
+    
+              <app-footer class="" id="footer" [data]="footerData"></app-footer>
+    
+    
+        </div>
+    
+
+
+
+</div>
+
+
+
+
+           
+
+    </div>
+    
+    
+
+    
+ 
+ 

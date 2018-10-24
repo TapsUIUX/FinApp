@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Compare-Chart---Atlassian-Copy-2" transform="translate(-453.000000, -781.000000)" fill-rule="nonzero">
+            <g id="Gross-Margin" transform="translate(453.000000, 780.000000)">
+                <g id="Icon-4" transform="translate(0.000000, 1.000000)">
+                    <rect id="Rectangle-8" fill="#0589C3" transform="translate(7.500000, 7.500000) scale(1, -1) rotate(90.000000) translate(-7.500000, -7.500000) " x="0" y="0" width="15" height="15" rx="2"></rect>
+                    <path d="M6.00005531,5.50005531 L6.00005531,9.49994469" id="Path-10" stroke="#262635" stroke-width="2" stroke-linecap="round" transform="translate(6.000055, 7.500000) scale(1, -1) rotate(90.000000) translate(-6.000055, -7.500000) "></path>
+                    <path d="M5,10.5 L5,12.5" id="Path-10" stroke="#262635" stroke-width="2" stroke-linecap="round" transform="translate(5.000000, 11.500000) scale(1, -1) rotate(90.000000) translate(-5.000000, -11.500000) "></path>
+                    <path d="M7.5,0 L7.5,7" id="Path-10" stroke="#262635" stroke-width="2" stroke-linecap="round" transform="translate(7.500000, 3.500000) scale(1, -1) rotate(90.000000) translate(-7.500000, -3.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

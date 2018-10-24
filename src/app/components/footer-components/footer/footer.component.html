@@ -1,0 +1,34 @@
+<div class="footer col-xs-12 no-mar-lr ">
+
+    
+
+
+    <div class="col-xs-5 footer-box" style="background-color: #2f2f42" >
+        <app-key-non-gap-metrics *ngIf='data' [keyNonGaap]="data.keyNonGaapMetrics"></app-key-non-gap-metrics>
+    </div>
+
+
+
+
+            <!-- <div class="col-xs-3  footer-box" style="border-top-left-radius:5px;border-bottom-left-radius:5px; background-color: #3a3a52 ;" >
+                    <app-summary *ngIf='data'  [summary]="data.summary"></app-summary>
+                </div> -->
+
+                
+
+                <div class="col-xs-3  footer-box"  style="background-color: #262635"  >
+                    <app-key-performance-indicators *ngIf='data'    [kpis]="data.KPIs" ></app-key-performance-indicators>
+                </div>
+
+
+
+
+
+                <div class="col-xs-4  footer-box" style="border-top-right-radius:5px;border-bottom-right-radius:5px;background-color: #171721" >
+                    <app-key-metrics *ngIf='data' [keyMatrics]="data.keyMatrics"  [kpis]="data.KPIs" ></app-key-metrics>
+                </div>
+
+     
+   
+    
+</div>

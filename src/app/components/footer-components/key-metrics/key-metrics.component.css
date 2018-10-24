@@ -1,0 +1,13 @@
+.text-mask{
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    padding-top: 26px;
+     
+}
+.chart-text{
+    height: 70px;
+    width: 100%;
+    justify-content: left;
+    
+}

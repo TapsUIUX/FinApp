@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>add</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Nav-Bar" transform="translate(-1281.000000, -19.000000)">
+            <g id="add" transform="translate(1292.500000, 29.500000) rotate(45.000000) translate(-1292.500000, -29.500000) translate(1281.000000, 18.000000)">
+                <g id="Group-2" transform="translate(2.000000, 2.000000)">
+                    <circle id="Oval" stroke="#FFFFFF" stroke-width="1.9" fill-rule="nonzero" cx="10" cy="10" r="10"></circle>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="9.23076923" y="3.84615385" width="1.53846154" height="12.3076923"></rect>
+                    <polygon id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" transform="translate(10.000000, 10.000000) rotate(90.000000) translate(-10.000000, -10.000000) " points="9.23076923 3.84615385 10.7692308 3.84615385 10.7692308 16.1538462 9.23076923 16.1538462"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

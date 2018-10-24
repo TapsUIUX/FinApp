@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="NAV-CONCEPT-1" transform="translate(-620.000000, -1065.000000)">
+            <g id="Group-37" transform="translate(0.000000, 961.000000)">
+                <g id="Group-16" transform="translate(619.000000, 54.000000)">
+                    <g id="Group-10" transform="translate(1.000000, 48.000000)">
+                        <g id="Icon-3" transform="translate(0.000000, 2.000000)">
+                            <g id="Group-5">
+                                <g id="Group-39" fill-rule="nonzero">
+                                    <rect id="Rectangle-8" fill="#14BFBB" x="0" y="0" width="15" height="15" rx="2"></rect>
+                                    <path d="M7.5,7 L7.5,10.9998894" id="Path-10" stroke="#262635" stroke-width="2" stroke-linecap="round"></path>
+                                    <path d="M3.5,9 L3.5,11" id="Path-10" stroke="#262635" stroke-width="2" stroke-linecap="round"></path>
+                                    <path d="M11.5,4 L11.5,11" id="Path-10" stroke="#262635" stroke-width="2" stroke-linecap="round"></path>
+                                </g>
+                                <g id="Group-2" transform="translate(2.500000, 4.000000)"></g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

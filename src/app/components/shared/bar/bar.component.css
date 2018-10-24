@@ -1,0 +1,12 @@
+.myProgress {
+    width: 100%;
+    background-color: #2d2d42;
+    border-radius: 5px;
+}
+.myBar {
+    width: 1%;
+    height: 10px;
+    background-color: #2d2d42;
+    transition: all 0.5s linear;
+    border-radius: 5px;
+}
